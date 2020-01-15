@@ -1,6 +1,6 @@
-# SimpleSynapse
+# simpleSynapse
 
-[Synapse](https://www.synapse.org/) is an open source software platform for researchers to coordinate projects and freely store their data. SimpleSynapse is Python API that allows data scientists to organize and sync data.
+[Synapse](https://www.synapse.org/) is an open source software platform for researchers to coordinate projects and freely store their data. simpleSynapse is a Python API that allows data scientists to organize and sync data.
 
 # Environment Setup
 
