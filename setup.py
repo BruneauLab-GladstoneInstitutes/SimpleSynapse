@@ -1,22 +1,14 @@
-import setuptools
+from setuptools import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-    
-setuptools.setup(
-     name='simpleSynapse',  
-     version='0.1',
-     scripts=['simpleSynapse.py'] ,
-     author="Andrew Blair",
-     author_email="apblair95@gmail.com",
-     description="A simple Synapse organization and maintenance python client script",
-     long_description=long_description,
-   long_description_content_type="text/markdown",
-     url="https://github.com/BruneauLab-GladstoneInstitutes/simpleSynapse",
-     packages=setuptools.find_packages(),
-     classifiers=[
-         "Programming Language :: Python :: 3",
-         "License :: OSI Approved :: MIT License",
-         "Operating System :: OS Independent",
-     ],
- )
+setup(name='simpleSynapse',
+      version='0.1',
+      description='A simple Synapse organization and maintenance python client script',
+      url='https://github.com/BruneauLab-GladstoneInstitutes/simpleSynapse',
+      author='Andrew Blair',
+      author_email='andrew.blair@gladstone.ucsf.edu',
+      license='MIT',
+      scripts=['simpleSynapse.py'],
+      install_requires=[
+          'synapseclient',
+      ],
+      zip_safe=False)
