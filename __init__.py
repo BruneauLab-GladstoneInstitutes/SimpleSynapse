@@ -1,1 +1,0 @@
-from simpleSynapse import simpleSynapse
