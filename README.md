@@ -8,23 +8,16 @@
 # Installation
 
 ```bash
-pip3 install simpleSynapse
+pip install simpleSynapse
 ```
 
 # Usage
 
 ```python
-from simpleSynapse import *
-```
+import simpleSynapse
 
-## Command line interface
-
-```
-python3 simpleSynapse --sync_local_to_synapse 
-```
-
-```
-python3 simpleSynapse --sync_synapse_to_local
+simpleSynapse.push(<username>, <password>, <project>)
+simpleSynapse.pull(<username>, <password>, <project>)
 ```
 
 Acknowledgements and thanks extend to Sage Bionetworks for developing the Synapse Python client, for which without SimpleSynapse would be much less simple.
