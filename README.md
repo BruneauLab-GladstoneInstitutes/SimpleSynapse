@@ -1,6 +1,6 @@
 # simpleSynapse
 
-[Synapse](https://www.synapse.org/) is an open source software platform for researchers to coordinate projects and freely store their data. simpleSynapse is a Python API and CLI that allows data scientists to simply organize, version control, and share data.
+[Synapse](https://www.synapse.org/) is an open source software platform for researchers to coordinate projects and freely store their data on Amazon S3 Bucket, Google Cloud Storage Bucket, or with Synapse Storage. simpleSynapse is a Python API and CLI that allows data scientists to organize, version control, and share data with a simple push or pull.
 
 # Requirements
 * [Be a registered Synapse user](https://www.synapse.org/#!RegisterAccount:0), however, only [certified users](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html) can upload files/tables and add provenance tracking
