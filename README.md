@@ -9,8 +9,13 @@
 
 # Installation
 
+System-wide Python installation:
 ```bash
 pip install simpleSynapse
+```
+UCSF Wynton HPC cluster:
+```bash
+python3 -m pip install --user simpleSynapse
 ```
 
 # Usage
