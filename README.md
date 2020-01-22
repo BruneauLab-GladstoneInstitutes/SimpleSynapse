@@ -44,7 +44,7 @@ simpleSynapsePull --username <username> --password <password> --project <project
 
 # Tutorial
 
-For a detailed tutorial please visit the public [SimplySynapse](https://www.synapse.org/#!Synapse:syn21535175/wiki/600620) data repository.
+For a detailed tutorial please visit our public [SimplySynapse](https://www.synapse.org/#!Synapse:syn21535175/wiki/600620) data repository.
 
 # Acknowledgements
 
