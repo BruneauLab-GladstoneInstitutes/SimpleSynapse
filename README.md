@@ -44,4 +44,8 @@ simpleSynapsePull --username <username> --password <password> --project <project
 
 # Tutorial
 
-Acknowledgements and thanks extend to Sage Bionetworks for developing the Synapse Python client, for which without SimpleSynapse would be much less simple.
+For a detailed tutorial please visit the public [SimplySynapse](https://www.synapse.org/#!Synapse:syn21535175/wiki/600620) data repository.
+
+# Acknowledgements
+
+Thanks extend to Sage Bionetworks for developing the Synapse Python client, for which without SimpleSynapse would be much less simple.
